@@ -1,0 +1,26 @@
+{
+  "name": "playwrightda_bd1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^24.7.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "mysql2": "^3.15.2",
+    "playwright": "^1.56.0",
+    "playwright-core": "^1.56.0",
+    "undici-types": "^7.14.0"
+  },
+  "description": ""
+}
