@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import LoginPageActions from '../../pom/actions/examplePage';
+import LoginPageActions from '../../pom/actions/loginPageActions';
 
 test('Login fallido muestra mensaje de error', async ({ page }) => {
   const login = new LoginPageActions(page);

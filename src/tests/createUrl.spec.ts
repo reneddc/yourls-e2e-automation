@@ -32,7 +32,7 @@ test('Crear short URL aleatoria y verificar en DB', async ({ request }) => {
   const connection = await mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: '1234',
+    password: '',
     database: 'yourlsv1',
   });
 
