@@ -1,6 +1,6 @@
 import { test as base } from '@playwright/test';
-import { DbFactory } from '../factories/db.factory';
-import { ApiFactory } from '../factories/apiClient.factory';
+import { DbFactory } from '../../factories/db.factory';
+import { ApiFactory } from '../../factories/apiClient.factory';
 import type { Connection } from 'mysql2/promise';
 import type { APIRequestContext } from '@playwright/test';
 

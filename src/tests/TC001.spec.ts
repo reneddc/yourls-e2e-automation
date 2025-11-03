@@ -1,7 +1,7 @@
 import { mergeTests } from "@playwright/test";
-import { test as logInTest, expect} from '../fixtures/loginPage.fixture';
-import { test as urlFormTest} from '../fixtures/URLFormPage.fixture';
-import { test as dbApiTest } from '../fixtures/db-api.fixture';
+import { test as logInTest, expect} from '../fixtures/ui/loginPage.fixture';
+import { test as urlFormTest} from '../fixtures/ui/URLFormPage.fixture';
+import { test as dbApiTest } from '../fixtures/api-db/db-api.fixture';
 import * as dotenv from 'dotenv';
 
 const test = mergeTests(logInTest, urlFormTest, dbApiTest);
